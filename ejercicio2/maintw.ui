@@ -34,10 +34,10 @@
      <string>Ejercicio 2 - Lotes</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="combo_res">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>200</x>
       <y>50</y>
       <width>53</width>
       <height>22</height>
@@ -59,24 +59,27 @@
      </property>
     </item>
    </widget>
-   <widget class="QSlider" name="horizontalSlider">
+   <widget class="QSlider" name="slider_compl">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>120</x>
       <y>100</y>
       <width>160</width>
       <height>16</height>
      </rect>
     </property>
+    <property name="maximum">
+     <number>10</number>
+    </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar">
+   <widget class="QProgressBar" name="progress_bar">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>140</y>
+      <x>140</x>
+      <y>190</y>
       <width>131</width>
       <height>23</height>
      </rect>
@@ -85,17 +88,59 @@
      <number>24</number>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="lbl_info">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>35</width>
-      <height>10</height>
+      <x>80</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_process">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Iniciar proceso</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Resolución:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_color">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid black;</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

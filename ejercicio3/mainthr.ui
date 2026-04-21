@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>484</width>
-    <height>384</height>
+    <width>522</width>
+    <height>393</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,7 +37,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>120</x>
       <y>70</y>
       <width>111</width>
       <height>16</height>
@@ -50,8 +50,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>120</y>
+      <x>100</x>
+      <y>110</y>
       <width>151</width>
       <height>16</height>
      </rect>
@@ -63,7 +63,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>70</x>
       <y>230</y>
       <width>131</width>
       <height>16</height>
@@ -76,20 +76,20 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>240</y>
-      <width>181</width>
-      <height>16</height>
+      <x>310</x>
+      <y>230</y>
+      <width>191</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Porcentaje de avance de la zona de riego en curso</string>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar">
+   <widget class="QProgressBar" name="progress_bar_zon">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>70</x>
       <y>270</y>
       <width>131</width>
       <height>23</height>
@@ -99,11 +99,11 @@
      <number>24</number>
     </property>
    </widget>
-   <widget class="QProgressBar" name="progressBar_2">
+   <widget class="QProgressBar" name="progress_bar_tot">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>270</y>
+      <x>350</x>
+      <y>260</y>
       <width>131</width>
       <height>23</height>
      </rect>
@@ -115,7 +115,7 @@
    <widget class="QLineEdit" name="txt_zon">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>350</x>
       <y>70</y>
       <width>131</width>
       <height>20</height>
@@ -125,37 +125,37 @@
    <widget class="QLineEdit" name="txt_ho">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>120</y>
+      <x>350</x>
+      <y>110</y>
       <width>131</width>
       <height>20</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="lbl_zon">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>140</x>
       <y>310</y>
-      <width>91</width>
+      <width>121</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Zona de riego en curso</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_iniciar">
+   <widget class="QPushButton" name="btn_riego">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>160</y>
-      <width>56</width>
+      <x>240</x>
+      <y>170</y>
+      <width>71</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Iniciar</string>
+     <string>Iniciar riego</string>
     </property>
    </widget>
   </widget>
@@ -164,7 +164,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>484</width>
+     <width>522</width>
      <height>18</height>
     </rect>
    </property>
